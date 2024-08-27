@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/image/favebook.webp" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="facebook-page flex">
+            <div class="text">
+                <h1>Facebook</h1>
+                <p>Connect with your friends and the world</p>
+                <p>around you on facebook</p>
+            </div>
+
+            <form name="contactForm" action="#">
+                <input type="email" name="email" placeholder="Enter email Address">
+                <div class="error" id="emailErr"></div>
+
+                <input type="number" name="mobile" placeholder="Enter Phone Number">
+                <div class="error" id="mobileErr"></div>
+
+                <input type="password" name="password" placeholder="Enter Password">
+                <div class="error" id="passwordErr"></div>
+
+                <div class="link">
+                    <button type="submit" class="login" onclick="loginBtn();">Login</button>
+                    <a href="#" class="forgot">Forgot Password?</a>
+                </div>
+                <hr>
+                <div class="button">
+                    <a href="index2.html">Create new account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
